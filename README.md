@@ -1,4 +1,4 @@
-# Vortex Vision - Task 2: Geometric Shape Detection
+# Task 2: Geometric Shape Detection
 
 This task is a computer vision application built with Python and OpenCV that automatically detects, classifies, and counts geometric shapes in an image.
 
@@ -21,3 +21,4 @@ The script follows these steps to achieve high accuracy:
    - **4 Vertices**: Checks the **Aspect Ratio** (Width/Height). If it's close to 1.0, it's a **Square**; otherwise, it's a **Rectangle**.
    - **7+ Vertices**: Classified as a **Circle**.
 5. **Noise Filtering**: Ignores very small contours (noise) or very large ones (frame boundaries).
+
